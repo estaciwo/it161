@@ -243,6 +243,7 @@ div.bio img {
 h2.title {
     font-size: 24px;
     margin-left: 5px;
+    color: #ffcba8;
 }
 
 /* /////// TABLET STYLES /////// */ 
@@ -306,6 +307,12 @@ h2.title {
 
     .gallery h2 a {
         text-decoration: none;
+        color: #d47031;
+    }
+
+    h2.title {
+        font-size: 24px;
+        margin-left: 5px;
         color: #d47031;
     }
 
@@ -406,6 +413,11 @@ h2.title {
     .gallery h2 a {
         text-decoration: none;
         color: #6d66e8;
+    }
 
+    h2.title {
+        font-size: 24px;
+        margin-left: 5px;
+        color: #6d66e8;
     }
 }
