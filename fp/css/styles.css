@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Astloch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Astloch:wght@700&family=UnifrakturCook:wght@700&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(../images/render02.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+h1 {
+    font-family: 'Roboto Mono',sans-serif;
+    font-size: 40px;
+    font-weight:500;
+    letter-spacing: 3px;
+    padding: 15px 0 0 15px;
+    color: #ffcba8;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #ffcba8;
+}
+
+nav {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+/* testing hamburger */
+nav p {
+    color: white;
+    float: right;
+    font-size: 18px;
+    padding: 24px 0;
+    display: none;
+}
+
+nav ul li {
+    display: block;
+    text-align: right;
+    letter-spacing: 2px;
+    margin-right: 20px;
+    padding: 5px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffcba8;
+}
+
+nav ul li a:hover {
+    letter-spacing: 30px;
+    padding-right: 50px;
+}
+
+footer {
+    text-align: center;
+    letter-spacing: 1px;
+    margin: auto;
+    padding: 5px 0;
+    color: white;
+    background-color: #ffcba8;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    width: 100%;
+    position: fixed;
+    /* left: 0; */
+    /* margin-top: 50px; */
+    bottom: 0;
+}
+
+footer p {
+    padding: 2px 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 15px;
+} 
+
+footer li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+}
+
+/* /////// secondary pages /////// */
+
+header.solid {
+    background-color: #9c9a95;
+}
+
+main.secondary {
+    padding: 25px; 
+    background-color:white;
+    float:left;
+}
+
+h2 {
+    font-weight: 400;
+    /* font-family:'Roboto Mono', Courier, monospace; */
+    font-size: 40px;
+    font-family: 'Astloch', serif;
+    letter-spacing: 2px;
+    color: #4d4c4b;
+    line-height: 60px;
+}
+
+div.about {
+    text-align: right;
+    max-width: 40%;
+    font-family:'Courier New', Courier, monospace;
+    margin: 40px;
+    float: left;
+    line-height: 20px;
+}
+
+img.about {
+    max-width: 35%;
+    float: right;
+    margin: 25px 50px;
+}
+
+div.gallery {
+    padding: 75px 50px;
+    height: 475px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+div.gallery h2 {
+    color: white;
+    font-size: 50px;
+    line-height: 110px;
+    font-family: 'Astloch', serif;
+}
+
+div.gallery h2 a {
+    color: white;
+    text-decoration: none;
+}
+
+div.gallery h2 a:hover {
+    color: #ffcba8;
+}
+
+main.gallery {
+    background: white;
+    padding: 25px;
+    margin-bottom: 500px;
+}
+
+main.gallery p {
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #ffcba8;
+}
+
+main.gallery p a {
+    text-decoration: none;
+    color: #ffcba8;
+}
+
+img.thumb {
+    max-width: 400px;
+    padding: 20px;
+}
+
+.gallery h2 a {
+    text-decoration: none;
+    color: #ffcba8;
+}
+
+.gallery h2 a:hover {
+    text-decoration: underline;
+}
+
+.formsection {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.formsection h2 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.formsection a {
+    font-family: 'UnifrakturCook', serif;
+    font-size: 36px;
+    margin: 5px;
+}
+
+.formsection a:hover {
+    text-decoration: underline;
+}
+
+form {
+    padding: 10px;
+}
+
+fieldset {
+    font-family: sans-serif;
+    padding: 10px;
+    color: #4d4c4b;
+}
+
+label, select {
+    margin: 10px;
+}
+
+main.gallery p {
+    font-family: 'Astloch', serif;
+    font-size: 40px;
+    color: #4d4c4b;
+    text-align: center;
+    margin: 50px;
+}
+
+div.bio img {
+    margin-bottom: 200px;
+}
+
+h2.title {
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+/* /////// TABLET STYLES /////// */ 
+@media only screen and (max-width: 800px) {
+
+    .container {
+        background-image: url(../images/martini02.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    h1 {
+        color: #d47031;
+        font-size: 30px;
+    }
+
+    h1 a {
+        color: #d47031;
+    }
+
+    nav ul li {
+        color: #d47031;
+    }
+
+    nav ul li a {
+        color: #d47031;
+    }
+
+    footer {
+        color: white;
+        background-color: #d47031;
+        font-size: 12px;
+    }
+
+    /* /////// secondary TABLET pages /////// */
+    
+    header.solid {
+        background-color: #f5e3bf;
+    }
+    div.about {
+        max-width: 35%;
+        margin: 30px;
+    }
+
+    img.about {
+        max-width: 40%;
+        margin: 25px 30px;
+    }
+
+    div.gallery h2 a:hover {
+        color: #d47031;
+    }
+
+    main.gallery p a {
+        text-decoration: none;
+        color: #d47031;
+    }
+
+    .gallery h2 a {
+        text-decoration: none;
+        color: #d47031;
+    }
+
+}
+
+/*  /////// MOBILE STYLES /////// */
+@media only screen and (max-width: 599px) {
+
+    .container {
+        background-image: url(../images/3d01.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    } */
+
+    header .mobile .secondary {
+          background-image: linear-gradient(to bottom right, lightgrey, darkgrey);
+    }
+
+    h1 {
+        font-size: 24px;
+        color: #6d66e8;
+    }
+
+    h1 a {
+        color: #6d66e8;
+    }
+
+    nav ul li {
+        font-size: 20px;
+        color: #6d66e8;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        color: #6d66e8;
+    }
+
+    footer {
+        background-color: #6d66e8;
+    }
+
+    footer ul {
+        line-height: 20px;
+    }
+
+    footer li {
+        padding: 0 5px;
+        display: inline;
+    }
+
+    /* /////// secondary MOBILE pages /////// */
+
+    header.solid {
+        background-color: #bfbfbf;
+    }
+    main.secondary {
+        padding: 25px; 
+        background-color:white;
+    }
+
+    div.about {
+        max-width: 45%;
+        margin: 15px;
+        text-align: right;
+        font-size: 14px;
+    }
+
+    img.about {
+        max-width: 45%;
+        margin: auto;
+    }
+
+    div.gallery h2 {
+        color: white;
+        font-size: 40px;
+        line-height: 75px;
+        font-family: 'Astloch', serif;
+    }
+
+    div.gallery h2 a:hover {
+        color: #6d66e8;
+
+    }
+
+    main.gallery p a {
+        text-decoration: none;
+        color: #6d66e8;
+    }
+
+    img.thumb {
+        max-width: 250px;
+    }
+
+    div.gallery h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .gallery h2 a {
+        text-decoration: none;
+        color: #6d66e8;
+
+    }
+}

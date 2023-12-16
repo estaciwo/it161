@@ -1,0 +1,107 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="description" content="Graphic Design by Beth Martini">
+    <meta name="keywords" content="graphic design art beth martini chicago illinois">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <title>Beth Martini Design Studio</title>
+</head>
+<body>
+    <div class="container">
+    <header class="solid">
+    <h1><a href="template.html">Beth Martini<br>Design Studio</a></h1>
+        <nav>
+            <!-- <p class="mobile">TEST</p> -->
+            <ul class="desk">
+                <li><a href="about.html">about</a></li>
+                <li><a href="gallery.html">gallery</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header> 
+<main class="gallery">
+<h2 class="title">Contact</h2>
+<h2>Follow Beth Martini on <a href="https://www.instagram.com/bethmartini.designs/" target="_blank">Instagram</a></h2>
+<div class="formsection">
+
+<p>Use the form below to make a freelance request or inquire further.</p>
+    
+<form>
+        <fieldset>
+            <legend>
+                <b>Design Request Form</b>
+            </legend>
+
+            <label><b>First Name</b></label>
+            <input type="text" name="first_name" value="">
+            <br><span class="error"></span>
+
+            <br><label><b>Last Name</b></label>
+            <input type="text" name="last_name" value="">
+            <br><span class="error"></span>
+
+            <br><label><b>Email</b></label>
+            <input type="email" name="email" value="">
+            <br><span class="error"></span>
+
+            <br><label><b>Phone</b></label>
+            <input type="tel" name="phone" placeholder="xxx-xxx-xxxx" value="">
+            <br><span class="error"></span>
+
+            <!-- <br><label><b>Choose your design request:</b></label> -->
+                <select name="medium">
+                    <option value="">Choose a request type:</option>
+
+                    <option value="Digital">Digital</option>
+
+                    <option value="Print">Print</option>
+
+                    <option value="Rendering">Rendering</option>
+
+                    <option value="Three-Dimensional">Three-Dimensional</option>
+
+                    <option value="Other">Other</option>
+
+                </select>
+                <br><span class="error"></span>
+
+            <br><label><b>Comments</b></label>
+            <textarea type="text" name="comment" value=""></textarea>
+            <br><span class="error"></span>
+
+            <br><input type="submit" value="Send it">
+
+                <p><a href="">Reset</a></p>
+                
+        </fieldset>
+    </form>
+</div>
+</main>
+    
+</div>
+<footer>
+        <p><li><a href="../index.html">web design by eric staciwo</a></li></p>
+        <p><ul>
+            <li>copyright &copy; 2023</li>
+            <li>all rights reserved</li>
+        </ul>
+        </p>
+        <p>
+        <ul>
+            <li><a id="html-checker" href="#">HTML validation</a></li>
+            <li><a id="css-checker" href="#">CSS validation</a></li>
+        </ul>
+        </p>
+        
+        <script>
+                document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+                document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+        </script>
+</footer>
+</body>
+</html>    
