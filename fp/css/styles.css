@@ -321,11 +321,7 @@ h2.title {
         width: 100%;
         background-size: cover;
         background-position: center;
-    } */
-
-    header .mobile .secondary {
-          background-image: linear-gradient(to bottom right, lightgrey, darkgrey);
-    }
+    } 
 
     h1 {
         font-size: 24px;
